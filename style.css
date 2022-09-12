@@ -1,6 +1,7 @@
 
 h1{
     font-family: sans-serif;
+    text-align: center;
 }
 p#perfil{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -37,4 +38,10 @@ div a{
     width: 100px;
     right: 270px;
     border: 100px;
+}
+ol{
+    right: 20px;
+    position: relative;
+    top: 10px;
+    text-align: center;
 }
