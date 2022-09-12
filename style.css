@@ -4,6 +4,9 @@ h1{
 }
 p#perfil{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 220px;
+    position: absolute;
+    left:400px;
 }
 body{
     background-color: #5BC0EB;
@@ -16,4 +19,22 @@ strong{
 }
 .second{
     font-size: 20px;
+}
+#foto{
+    float: left;
+    position: relative;
+}
+#principais, #outras, ul{
+    position: relative;
+    top: 400px;
+    right: 250px;
+}
+div a{
+    position: relative;
+    padding: 20px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+    right: 270px;
+    border: 100px;
 }
