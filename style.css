@@ -1,0 +1,19 @@
+
+h1{
+    font-family: sans-serif;
+}
+p#perfil{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: #5BC0EB;
+}
+strong{
+    color: white;
+}
+.top{
+    font-size: 22px;
+}
+.second{
+    font-size: 20px;
+}
