@@ -1,11 +1,12 @@
 
 h1{
+    margin: 50px;
     font-family: sans-serif;
     text-align: center;
 }
 p#perfil{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    top: 220px;
+    top: 280px;
     position: absolute;
     left:400px;
 }
@@ -22,28 +23,16 @@ strong{
     font-size: 20px;
 }
 #foto{
-    float: left;
     position: relative;
     padding: 20px;
-    background-color: blue;
-}
-#principais, #outras, ul{
-    position: relative;
-    top: 440px;
-    right: 250px;
-}
-div a{
-    position: relative;
-    padding: 15px;
-    top: 440px;
-    height: 100px;
-    width: 100px;
-    right: 270px;
-    border: 100px;
+    background-color: rgb(31, 8, 233);
 }
 ol{
     right: 20px;
     position: relative;
     top: 10px;
     text-align: center;
+}
+ul li:nth-of-type(odd){
+    color: red;
 }
