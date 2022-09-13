@@ -24,16 +24,18 @@ strong{
 #foto{
     float: left;
     position: relative;
+    padding: 20px;
+    background-color: blue;
 }
 #principais, #outras, ul{
     position: relative;
-    top: 400px;
+    top: 440px;
     right: 250px;
 }
 div a{
     position: relative;
-    padding: 20px;
-    top: 400px;
+    padding: 15px;
+    top: 440px;
     height: 100px;
     width: 100px;
     right: 270px;
