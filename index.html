@@ -6,42 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio web</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <ol>
-        <a href="#perfil">Perfil</a>
-        <a href="#principais">Principais habilidades</a>
-        <a href="#outras">Outras habilidades</a>
-    </ol>
-    <div>
-        <h1>Samuel Soares da Rocha</h1>
-    </div>
-    <div><img id="foto" width="300px" src="Sem título.png" alt="Foto de perfil de Samuel Rocha"></div>
-    <div>
-        <p id="perfil">Estudante de desenvolvimento web pela <em>Trybe</em>, <strong>brasileiro</strong>, nascido em 19 de julho de 1991, na cidade de <strong>Salvador-Ba</strong>. Com ensino médio completo desde 2008, possui experiências na área administrativa e na de atendimento ao público.</p>
-    </div>
-    <p id="principais">
-        Principais habilidades:
-            <ul>
-                <li class="top">Empatia</li>
-                <li class="top">Dedicação</li>
-                <li class="top">Disciplina</li>
-                <li class="second">Unix</li>
-                <li class="second">Html</li>
-                <li class="second">Git e Github</li>
-            </ul>
-    </p>
-    <p id="outras">
-        Outras habilidades
-            <ul>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>Http</li>
-                <li>Python</li>
-            </ul>
-    </p>
-        <a target="_blank" rel="external" href="https://blog.betrybe.com/">Blog da Trybe</a>
-        
-        <a href="#foto">Minha imagem &Uarr;;</a>
+    <header>
+        <nav>
+            <ol>
+                <a class="btn btn-primary"  href="#perfil">Perfil</a>
+                <a class="btn btn-primary" href="#principais">Soft Skills</a>
+                <a class="btn btn-primary" href="#outras">Hard Skills</a>
+            </ol>
+        </nav>
+        <div>
+            <h1>Samuel Soares da Rocha</h1>
+        </div>
+    </header>
+        <div class="face-text">
+            <section class="description" >
+                    <div >
+                        <img id="foto" src="Sem título.png" alt="Foto de perfil de Samuel Rocha">
+                    </div>
+                    <div>
+                        <h5>Estudante de Desenvolvimento Web</h5>
+                        <p id="perfil"><strong>Brasileiro</strong>, nascido em 19 de julho de 1991 na cidade de <strong>Salvador-Ba</strong>, iniciei meus estudos em desenvolvimento web através da Turma 27, Tribo A, da <a href="https://www.betrybe.com/?utm_term=trybe&utm_campaign=*%5BSearch%5D+Brand_BRA&utm_source=adwords&utm_medium=ppc&hsa_acc=1466424558&hsa_cam=12085736593&hsa_grp=146119280611&hsa_ad=617838452283&hsa_src=g&hsa_tgt=kwd-372340162995&hsa_kw=trybe&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAtbqdBhDvARIsAGYnXBMxAaBiMMxDHaQsMAARwVrN6Sgq5_4KcxbeCl2Fhy-DDce2pw2K5D0aAhmOEALw_wcB" target="_blank"><em>Trybe</em></a> (SET/2022).</p>
+                        <p> Tendo tido experiências com o público e rotinas administrativas, objetivo agregar desenvolvimento pessoal e profissional numa área de progresso humano contínuo e relevância social.</p>
+                    </div>
+            </section>
+        </div>
+    <main>
+        <div class="skills">
+            <p class="text">
+                Soft Skills:
+            </p>
+                    <ul ul class="list-group">
+                        <li class="list-group-item">Empatia</li>
+                        <li class="list-group-item">Colaboratividade</li>
+                        <li class="list-group-item">Disciplina</li>
+                        <li class="list-group-item">Adaptação</li>
+                    </ul>
+            
+        </div>
+        <div class="skills">
+            <p class="text">
+                Hard Skills:
+            </p>
+                    <ul ul class="list-group">
+                        <li class="list-group-item">Css</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">Html</li>
+                        <li class="list-group-item">Git e GitHub</li>
+                    </ul>
+        </div>
+    </main>
+        <div class="rodape">
+            <footer class="card">
+                <h5 class="card-header">Contato
+                    <a href="https://www.instagram.com/sam_sr91/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/samuel-rocha-88278224a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/SamuelRocha91"><i class="bi bi-github"></i></a>
+                </h5>
+            
+                <div class="card-body">
+                    <div>
+            
+                        <a target="_blank" class="btn btn-primary" rel="external" href="https://blog.betrybe.com/">Blog da Trybe</a>
+                        <a href="#foto" class="btn btn-primary">Minha imagem &Uarr;</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
 </body>
 </html>
