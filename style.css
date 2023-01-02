@@ -35,7 +35,7 @@ ul, li:hover {
 }
 
 .description {
-    background-color: aliceblue;
+    background-color: rgba(235, 241, 247, 0.938);
     width: 40%;
     display: flex;
     justify-content: center;
@@ -43,6 +43,8 @@ ul, li:hover {
     padding: 20px;
     align-items: center;
     border: 1px solid rgb(153, 138, 207);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
 }
 
 img{
