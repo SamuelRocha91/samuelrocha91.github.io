@@ -35,7 +35,7 @@ ul, li:hover {
     gap: 15px;
     padding: 20px;
     align-items: center;
-    border: 1px solid silver;
+    border: 1px solid rgb(153, 138, 207);
 }
 
 img{
