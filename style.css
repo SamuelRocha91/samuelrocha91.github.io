@@ -74,3 +74,43 @@ main{
     width:  100%;
     padding: 20px;
 }
+
+@media screen and (max-width: 1380px) {
+    .description{
+        width: 60%;;
+    }
+}
+@media screen and (max-width: 900px) {
+    .description{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 200px;
+    }
+    .info h5 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 368px) {
+    .links-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    ol{
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+        ;
+    }
+    h1 {
+        text-align: center;
+    }
+}
