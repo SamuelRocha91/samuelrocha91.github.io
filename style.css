@@ -16,6 +16,10 @@ header {
     width: 100%;
 }
 
+ul, li:hover {
+    background-color: aqua;
+}
+
 .face-text{
     width: 100%;
     display: flex;
