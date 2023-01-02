@@ -15,6 +15,9 @@ header {
     background-color: aliceblue;
     width: 100%;
 }
+ul, li:hover {
+    background-color: aqua;
+}
 
 .face-text{
     width: 100%;
@@ -31,7 +34,7 @@ header {
     gap: 15px;
     padding: 20px;
     align-items: center;
-    border: 1px solid silver;
+    border: 1px solid rgb(153, 138, 207);
 }
 
 img{
