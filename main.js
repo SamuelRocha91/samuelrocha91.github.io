@@ -11,7 +11,7 @@ const about = [
         title: 'Profissional',
         src: 'tecnologia.jpeg',
         alt: 'foto de códigos',
-        description: 'Formado em Desenvolvimento Web pela Trybe, possuo projetos back-end e front-end desenvolvidos nas mais diversas tecnologias. Atualmente integro uma equipe que está desenvolvendo uma startup na área da educação, concebendo desde o seu plano de negócios, pesquisa de tecnologias, até o seu desenvolvimento enquanto código'
+        description: 'Formado em Desenvolvimento Web pela <a href="https://www.betrybe.com/">Trybe</a>, possuo projetos back-end e front-end desenvolvidos nas mais diversas tecnologias. Atualmente integro uma equipe que está desenvolvendo uma startup na área da educação, concebendo desde o seu plano de negócios, pesquisa de tecnologias, até o seu desenvolvimento enquanto código'
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ function changeData(operation) {
     }
     console.log(id)
     const newInfo = about[id - 1];
-    description.innerText = newInfo.description;
+    description.innerHTML = newInfo.description;
     title2.innerText = newInfo.title;
     image.src = newInfo.src;
     image.alt = newInfo.alt;
