@@ -10,127 +10,247 @@
     <title>Portfólio Web</title>
 </head>
 <body>
-        <header>
-            <section class="init">
-                <i class="bi bi-code"></i>
-                <div class="topics">
-                    <h3><a href="#content-carroussel">Sobre</a></h3>
-                    <h3><a href="#skills">Habilidades</a></h3>
-                    <h3><a href="#projects">Projetos</a></h3>
-                </div>
-            </section>
-            <section class="links">
-                <Select>
-                    <Option>Português, BRA</Option>
-                    <Option>English, USA</Option>
-                </Select>
-                <a target="_blank" href="https://github.com/SamuelRocha91"><i class="bi bi-github"></i></a>
-                <a target="_blank"  href="https://www.linkedin.com/in/samuel-soares-rocha-dev/"><i class="bi bi-linkedin"></i></a>
-                <a target="_blank"  href="https://wa.me/5571992594946"><i class="bi bi-whatsapp"></i></a>
-            </section>
-        </header>
-    <main>
-        <div id="initial-view">
-            <section class="introduction">
-                <div id="welcome" >
-                    <h1>Olá, seja bem-vindo(a) ao meu Portfólio Web!</h1>
-                    <a href="#projects"><button>Veja mais</button></a>
-                </div>
-                <img src="JavaScript_mascot_bliss.png" alt="mascote havascript com bandeira nas mãos">
-            </section>
+  <header>
+    <section class="init">
+      <i class="bi bi-code"></i>
+      <div class="topics">
+        <h3>
+          <a href="#content-carroussel">
+            Sobre
+          </a>
+        </h3>
+        <h3>
+          <a href="#skills">Habilidades</a>
+        </h3>
+        <h3>
+          <a href="#projects">Projetos</a>
+        </h3>
+      </div>
+    </section>
+    <section class="links">
+      <a 
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/SamuelRocha91"
+        >
+        <i class="bi bi-github"></i>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/samuel-soares-rocha-dev/"
+      >
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a 
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://wa.me/5571992594946"
+      >
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <div id="initial-view">
+      <section class="introduction">
+        <div id="welcome" >
+          <h1>Olá, seja bem-vindo(a) ao meu Portfólio Web!</h1>
+          <a href="#projects">
+            <button>Veja mais</button>
+          </a>
         </div>
-        <div id="content-carroussel">
-            <a class="left-right" id="left"><i class="bi bi-arrow-left-circle"></i></a>
-            <div class="slide-item">
-                <h1 id="title">Samuel Rocha</h1>
-                <img id="image" src="perfil.png" alt="perfil">
-                <div id="storage">
-                    <h2 id="description">Desenvolvedor Web Full-Stack</h2>
-                </div>
-            </div>
-          <a class="left-right" id="right"><i class="bi bi-arrow-right-circle"></i></a>
+        <img src="images/freedom.jpg" alt="ave voando que transmite sensação de liberdade">
+      </section>
+    </div>
+    <div id="content-carroussel">
+      <a class="left-right" id="left">
+        <i class="bi bi-arrow-left-circle"></i>
+      </a> 
+
+      <div class="slide-item">
+        <h1 id="title">Samuel Rocha</h1>
+        <img id="image" src="./images/perfil.png" alt="perfil">  
+        <div id="storage">
+          <h2 id="description">Desenvolvedor Web Full-Stack</h2>
         </div>
-          <section id="skills">
-            <h2>Habilidades</h2>
-            <div id="ulskill">
-                <ul>
-                    <li>Javascript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Sequelize</li>
-                    <li>MySql</li>
-                    <li>Express</li>
-                    <li>Docker</li>
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>Python</li>
-                    <li>Pytest</li>
-                </ul>
-                <ul>
-                    <li>Java</li>
-                    <li>Spring Boot</li>
-                    <li>Spring Data</li>
-                    <li>Spring Security</li>
-                    <li>JUNIT</li>
-                    <li>Arquitetura MSC</li>
-                    <li>SOLID</li>
-                    <li>POO</li>
-                    <li>Jest</li>
-                    <li>RTL</li>
-                    <li>MongoDb</li>
-                </ul>
+      </div>
+        
+      <a class="left-right" id="right">
+        <i class="bi bi-arrow-right-circle"></i>
+      </a>
+    </div>
+
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <div id="ulskill">
+        <ul>
+          <li>Javascript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>Sequelize</li>
+          <li>MySql</li>
+          <li>Express</li>
+          <li>Docker</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Python</li>
+          <li>Pytest</li>
+        </ul>
+        <ul id="list-two">
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>Spring Data</li>
+          <li>Spring Security</li>
+          <li>JUNIT</li>
+          <li>Arquitetura MSC</li>
+          <li>SOLID</li>
+          <li>POO</li>
+          <li>Jest</li>
+          <li>Ruby On Rails</li>
+          <li>Prisma</li>
+        </ul>
+      </div>
+    </section>
+    <Section id="projects">
+      <h2>Projetos</h2>
+      <div id="content-repository">
+        <div id="manager-repository">
+          <div class="repositories">
+            <h3 class="space">
+              <i class="bi bi-tv"></i>
+              <a 
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/SamuelRocha91/ProjectRecipesApp"
+                >
+                Project Recipes App
+              </a>
+            </h3>
+            <hr>
+            <p>Projeto em grupo que envolveu a criação de um app de Receitas com diversas rotas de acesso e controle do estado da aplicação.</p>
+            <div class="space">
+              <h5>#Javascript #React #ReactRouter #ContextApi</h5>
             </div>
-          </section>
-          <Section id="projects">
-            <h2>Projetos</h2>
-            <div id="content-repository">
-                <div id="manager-repository">
-                    <div class="repositories">
-                        <h3 class="space"><i class="bi bi-tv"></i> <a href="https://github.com/SamuelRocha91/ProjectRecipesApp">Project Recipes App</a></h3>
-                        <hr>
-                        <p>Projeto em grupo que envolveu a criação de um app de Receitas com diversas rotas de acesso e controle do estado da aplicação.</p>
-                        <div class="space"><h5>#Javascript #React #ReactRouter #ContextApi</h4></div>
-                   </div>
-                   <div class="repositories">
-                       <h3 class="space"><i class="bi bi-tv"></i> <a href="https://github.com/SamuelRocha91/trybeFutebolClube">TFC</a></h3>
-                       <hr>
-                       <p>A aplicação consiste num site gerenciador de um sistema de jogos de futebol através de um backend dockerizado e modelado com Sequelize.</p>
-                       <div class="space"><h5>#Typescript #Sequelize #MongoDb #Docker</h4></div>
-                    </div>
-                    <div class="repositories">
-                        <h3 class="space"><i class="bi bi-tv"></i> <a href=""><a href="https://github.com/SamuelRocha91/trivia_game">Project Trivia</a></a></h3>
-                        <hr>
-                        <p>Projeto React que envolveu a criação de um jogo de Trivia com implementação de rota de cadastro, rota de jogo e rota de ranking.</p>
-                        <div class="space"><h5>#Javascript #React #ReactRouter #ContextApi</h4></div>
-                   </div>
-                </div>
-                <div>
-                   <div class="repositories">
-                        <h3 class="space"><i class="bi bi-tv"></i> <a href="https://github.com/SamuelRocha91/Agrix">Project Agrix</a></h3>
-                        <hr>
-                        <p>Projeto Java realizado com o ecossistema Spring e que implementa um sistema de controle de fazendas.</p>
-                        <div class="space"><h5>#Java #Spring #SpringBoot #JUnit</h4></div>
-                    </div>
-                    <div class="repositories">
-                       <h3 class="space"><i class="bi bi-tv"></i> <a href="https://github.com/SamuelRocha91/restaurantOrders">Project Restaurant Orders</a></h3>
-                       <hr>
-                        <p>A aplicação consiste num sistema de gerar cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.</p>
-                        <div class="space"><h5>#Python #Pytest #TiposDeDados #BackEnd</h4></div>
-                     </div>
-                     <div class="repositories">
-                        <h3 class="space"><i class="bi bi-tv"></i> <a href="https://github.com/SamuelRocha91/project-frontend-online-store">Project FrontEnd Online Store</a></h3>
-                        <hr>
-                        <p>Projeto front-end desenvolvido em equipe com uso do React para construção de uma aplicação e-commerce.</p>
-                        <div class="space"><h5>#Javascript #React #ReactRouter #Redux</h4></div>
-                   </div>
-                </div>
+          </div>
+          <div class="repositories">
+            <h3 class="space">
+              <i class="bi bi-tv"></i>
+              <a 
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/SamuelRocha91/trybeFutebolClube"
+                >
+                TFC
+              </a>
+            </h3>
+            <hr>
+            <p>A aplicação consiste num site gerenciador de um sistema de jogos de futebol através de um backend dockerizado e modelado com Sequelize.</p>
+            <div class="space">
+              <h5>#Typescript #Sequelize #MongoDb #Docker</h5>
             </div>
-          </Section>
+          </div>
+          <div class="repositories">
+            <h3 class="space">
+              <i class="bi bi-tv"></i>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/SamuelRocha91/delivery_back"
+                >
+                Project Delivery
+              </a>
+            </h3>
+            <hr>
+            <p>Repositório Ruby On Rails de uma aplicação de delivery com autenticação, threads, docker, testes. Back-end e interface de usuários com a role :admin e developer.</p>
+            <div class="space">
+                <h5>#Javascript #Ruby #ruby-on-rails #geocode #websockets #redis #sidekiq #threads #kaminari</h5>
+            </div>
+          </div>
+        </div>
+      <div id="list-repositories-two">
+        <div class="repositories">
+          <h3 class="space">
+            <i class="bi bi-tv"></i> 
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/SamuelRocha91/Agrix"
+              >
+              Project Agrix
+            </a>
+          </h3>
+          <hr>
+          <p>Projeto Java realizado com o ecossistema Spring e que implementa um sistema de controle de fazendas.</p>
+          <div class="space">
+            <h5>#Java #Spring #SpringBoot #JUnit</h5>
+          </div>
+        </div>
+        <div class="repositories">
+          <h3 class="space">
+            <i class="bi bi-tv"></i>
+            <a 
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/SamuelRocha91/restaurantOrders"
+              >
+              Project Restaurant Orders
+            </a>
+          </h3>
+          <hr>
+          <p>A aplicação consiste num sistema de gerar cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.</p>
+          <div class="space">
+            <h5>#Python #Pytest #TiposDeDados #BackEnd</h5>
+          </div>
+        </div>
+        <div class="repositories">
+          <h3 class="space">
+            <i class="bi bi-tv"></i>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/SamuelRocha91/kotlinVirtualMenu"
+              >
+              Project Restaurant Menu
+            </a>
+        </h3>
+        <hr>
+        <p>Aplicação Android que exibe um cardápio de restaurante. A aplicação inclui funcionalidades para visualizar uma lista de pratos, detalhes de cada prato e navegação entre as telas..</p>
+        <div class="space">
+          <h5>#Android #RecyclerView #Kotlin #Adapters</h5>
+        </div>
+      </div>
+     </div>
+    </div>
+   </Section>
+   <div id="gif-section">
+    <div class="gif-card">
+      <h1 class="section-title"> ☀️ Explore Meus Projetos</h1>
+      <div class="gif-container">
+        <img class="gif" src="./gifs/admin.gif" alt="aplicação do admin de delivery">
+        <img class="gif" src="./gifs/consumy.gif" alt="aplicação do consumidor de delivery">
+        <img class="gif" src="./gifs/registerSeller.gif" alt="aplicação do vendedor de delivery - registro">
+        <img class="gif" src="./gifs/sellerInternal.gif" alt="aplicação do vendedor de delivery - navegação interna">
+        <img class="gif" src="./gifs/menuVirtual.gif" alt="aplicação do consumidor de delivery">
+       </div>
+     </div>
+      <p class="cta">
+        Confira mais projetos e colaborações no meu <a rel="noopener noreferrer" href="https://github.com/SamuelRocha91/" target="_blank">GitHub<a>.
+      </p>
+     </div>
     </main>
     <footer>
-        <div id="foot">
-           <i class="bi bi-code-slash"></i>
+       <div class="footer-container">
+        <div class="contact-info">
+            <h2>Contato</h2>
+            <p>Email: <a class="mail" href="mailto:samuel_sr@hotmail.com.br">samuel_sr@hotmail.com.br</a></p>
+            <p>Telefone: (71) 99259-4946</p>
+            <p>Endereço: Rua Travasso do meio, 27, Bonfim, Salvador-BA</p>
         </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Samuel Rocha. Todos os direitos reservados.</p>
+    </div>
     </footer>
 </body>
   <script src="main.js"></script>

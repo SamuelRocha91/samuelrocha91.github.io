@@ -2,30 +2,30 @@ const about = [
     {
         id: 1,
         title: 'Samuel Rocha',
-        src: 'perfil.png',
-        alt: 'foto de perfil',
+        src: './images/perfil.png',
+        alt: 'foto de perfil de Samuel',
         description: 'Desenvolvedor Web Full-Stack'
     },
     {
         id: 2,
         title: 'Profissional',
-        src: 'tecnologia.jpeg',
-        alt: 'foto de códigos',
-        description: 'Formado em Desenvolvimento Web pela <a href="https://www.betrybe.com/">Trybe</a>, possuo projetos back-end e front-end desenvolvidos nas mais diversas tecnologias. Atualmente integro uma equipe que está desenvolvendo uma startup na área da educação, concebendo desde o seu plano de negócios, pesquisa de tecnologias, até o seu desenvolvimento enquanto código'
+        src: './images/tecnology.jpeg',
+        alt: 'foto de códigos tela com códigos de programação',
+        description: 'Formado em Desenvolvimento Web pela <a href="https://www.betrybe.com/" style="text-decoration: underline;">Trybe</a>, tenho experiência em projetos de front-end e back-end, utilizando diversas tecnologias modernas. Conquistei certificações pela freeCodeCamp, HackerRank e LWSA, o que reforça minha constante busca por aprendizado e aperfeiçoamento.'
     },
     {
         id: 3,
         title: 'Naturalidade',
-        src: 'SalvadorBonfim.jpg',
+        src: './images/cityOfSalvador.jpg',
         alt: 'igreja do Bonfim, Salvador',
-        description: 'Sou brasileiro, tenho 32 anos, natural da cidade de Salvador-Ba. Salvador é uma cidade tropical, superpovoada, com traços culturais tipicamente africanos, com festas e ritos que permeiam todo o calendário'
+        description: 'Brasileiro, 33 anos, nascido e criado em Salvador-BA: cidade vibrante, rica em cultura e tradição.'
     },
     {
         id: 4,
         title: 'Perfil',
-        src: 'TecnologiaeEu.jpg',
+        src: './images/sunset.jpg',
         alt: 'homem sentado na areia olhando o mar',
-        description: 'Sou Cristão, pacifista, disciplinado, pontual e adaptável. Tenho como hobbies ler, correr, ir à praia e ver futebol.'
+        description: 'Tenho como hobbies ler, correr, ir à praia e ver futebol. Gosto das coisas simples, de estar em contato com as pessoas e a natureza'
     },
 ]
 
@@ -33,25 +33,31 @@ function changeData(operation) {
     const description = document.getElementById('description');
     const title2 = document.getElementById('title');
     const image = document.getElementById('image');
-    let id = about.find(({title}) => title == title2.innerText).id;
-    if (operation == 'sum') {
-        id += 1
-    } else {
-        id -= 1
-    }
-    if (id == 0) {
-        id = 4
-    }
+    
+    const newId = generateId(operation, title2)
 
-    if (id > 4) {
-        id = 1
-    }
-    console.log(id)
-    const newInfo = about[id - 1];
+    const newInfo = about[newId - 1];
+    
     description.innerHTML = newInfo.description;
     title2.innerText = newInfo.title;
     image.src = newInfo.src;
     image.alt = newInfo.alt;
+}
+
+function generateId(operation, title2) {
+    let id = about.find(({title}) => title == title2.innerText).id;
+    if (operation == 'sum') {
+      id += 1
+    } else {
+      id -= 1
+    }
+    if (id == 0) {
+        id = 4
+    }
+    if (id > 4) {
+        id = 1
+    }
+    return id
 }
 
 window.onload = function () {
