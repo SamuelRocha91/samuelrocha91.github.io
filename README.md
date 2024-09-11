@@ -30,8 +30,7 @@ Aqui estão alguns dos projetos que você pode explorar no meu portfólio:
 - **[consumy_application](https://github.com/SamuelRocha91/consumy)**:  Aplicação do consumidor para uma plataforma de delivery, desenvolvida em Vue.js.
 - **[Agrix](https://github.com/SamuelRocha91/Agrix)**: Projeto Java realizado com o ecossistema Spring e que implementa um sistema de controle de fazendas.
 - **[Restaurant Orders](https://github.com/SamuelRocha91/restaurantOrders)**: Projeto Python de gerar cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.
-
- **[Water and Gas Measurement API](https://github.com/SamuelRocha91/apiMeasureWaterAndGas)**: API desenvolvida para gerenciar medições de água e gás a partir de imagens enviadas pelos clientes. Feita em Node.js e Typescript.
+ - **[Water and Gas Measurement API](https://github.com/SamuelRocha91/apiMeasureWaterAndGas)**: API desenvolvida para gerenciar medições de água e gás a partir de imagens enviadas pelos clientes. Feita em Node.js e Typescript.
 
 ## Tecnologias Usadas
 
