@@ -317,6 +317,20 @@ a:hover {
     font-size: 0.8rem;
 }
 
+@media (max-height: 890px) {
+  #manager-repository .repositories:nth-child(1) {
+    display: none;
+  }
+
+  .repositories .space {
+    font-size: 20px;
+  }
+
+  .space h5 {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1600px) {
   #content-repository{
     max-width: 60%;
