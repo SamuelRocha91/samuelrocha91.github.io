@@ -126,7 +126,7 @@ main {
   object-position: center; 
   border-radius: 50%;
   margin-bottom: 20px; 
-  background-color: rgb(130, 130, 204);
+  background-color: RGB(255, 69, 0);
 }
 
 #storage {
