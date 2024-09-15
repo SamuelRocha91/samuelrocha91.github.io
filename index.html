@@ -15,19 +15,31 @@
       <i class="bi bi-code"></i>
       <div class="topics">
         <h3>
-          <a href="#content-carroussel">
-            Sobre
-          </a>
+          <a data-translate="column_about" href="#content-carroussel"></a>
         </h3>
         <h3>
-          <a href="#skills">Habilidades</a>
+          <a data-translate="column_skill"  href="#skills"></a>
         </h3>
         <h3>
-          <a href="#projects">Projetos</a>
+          <a data-translate="column_projects" href="#projects"></a>
         </h3>
+        <select onchange="changeLanguage(this.value)" class="form-select-two" aria-label="Default select example">
+          <option value="pt">Português</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="ch">简体中文</option>
+          <option value="ru">Русский</option>
+      </select>
       </div>
     </section>
     <section class="links">
+      <select onchange="changeLanguage(this.value)" class="form-select" aria-label="Default select example">
+        <option value="pt">Português</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="ch">简体中文</option>
+        <option value="ru">Русский</option>
+      </select>
       <a 
         target="_blank"
         rel="noopener noreferrer"
@@ -55,9 +67,9 @@
     <div id="initial-view">
       <section class="introduction">
         <div id="welcome" >
-          <h1>Olá, seja bem-vindo(a) ao meu Portfólio Web!</h1>
+          <h1 data-translate="welcome_message"></h1>
           <a href="#projects">
-            <button>Veja mais</button>
+            <button data-translate="btn_msg"></button>
           </a>
         </div>
         <img src="images/freedom.jpg" alt="ave voando que transmite sensação de liberdade">
@@ -69,10 +81,10 @@
       </a> 
 
       <div class="slide-item">
-        <h1 id="title">Samuel Rocha</h1>
-        <img id="image" src="./images/perfil.png" alt="perfil">  
+        <h1 id="title"></h1>
+        <img id="image" src="" alt="">  
         <div id="storage">
-          <h2 id="description">Desenvolvedor Web Full-Stack</h2>
+          <h2 id="description"></h2>
         </div>
       </div>
         
@@ -82,7 +94,7 @@
     </div>
 
     <section id="skills">
-      <h2>Habilidades</h2>
+      <h2 data-translate="column_skill"></h2>
       <div id="ulskill">
         <ul>
           <li>Javascript</li>
@@ -113,7 +125,7 @@
       </div>
     </section>
     <Section id="projects">
-      <h2>Projetos</h2>
+      <h2 data-translate="name_projects"></h2>
       <div id="content-repository">
         <div id="manager-repository">
           <div class="repositories">
@@ -128,7 +140,7 @@
               </a>
             </h3>
             <hr>
-            <p>Projeto em grupo que envolveu a criação de um app de Receitas com diversas rotas de acesso e controle do estado da aplicação.</p>
+            <p data-translate="recipes_description"></p>
             <div class="space">
               <h5>#Javascript #React #ReactRouter #ContextApi</h5>
             </div>
@@ -145,7 +157,7 @@
               </a>
             </h3>
             <hr>
-            <p>A aplicação consiste num site gerenciador de um sistema de jogos de futebol através de um backend dockerizado e modelado com Sequelize.</p>
+            <p data-translate="tfc_description"></p>
             <div class="space">
               <h5>#Typescript #Sequelize #MongoDb #Docker</h5>
             </div>
@@ -162,9 +174,11 @@
               </a>
             </h3>
             <hr>
-            <p>Repositório Ruby On Rails de uma aplicação de delivery com autenticação, threads, docker, testes. Back-end e interface de usuários com a role :admin e developer.</p>
+            <p data-translate="delivery_description"></p>
             <div class="space">
-                <h5>#Javascript #Ruby #ruby-on-rails #geocode #websockets #redis #sidekiq #threads #kaminari</h5>
+                <h5>
+                  #Javascript #Ruby #ruby-on-rails #geocode #websockets #redis #sidekiq #threads #kaminari
+                </h5>
             </div>
           </div>
         </div>
@@ -181,7 +195,7 @@
             </a>
           </h3>
           <hr>
-          <p>Projeto Java realizado com o ecossistema Spring e que implementa um sistema de controle de fazendas.</p>
+          <p data-translate="agrix_description"></p>
           <div class="space">
             <h5>#Java #Spring #SpringBoot #JUnit</h5>
           </div>
@@ -198,7 +212,7 @@
             </a>
           </h3>
           <hr>
-          <p>A aplicação consiste num sistema de gerar cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.</p>
+          <p data-translate="resraturant_description"></p>
           <div class="space">
             <h5>#Python #Pytest #TiposDeDados #BackEnd</h5>
           </div>
@@ -211,13 +225,13 @@
               rel="noopener noreferrer"
               href="gifs/weather.gif"
               >
-              Project Restaurant Menu
+              Project WeatherApp
             </a>
         </h3>
         <hr>
-        <p>Aplicação Android que exibe um cardápio de restaurante. A aplicação inclui funcionalidades para visualizar uma lista de pratos, detalhes de cada prato e navegação entre as telas..</p>
+        <p data-translate="weather_app"></p>
         <div class="space">
-          <h5>#Android #RecyclerView #Kotlin #Adapters</h5>
+          <h5>#Android #Retrofit #Coroutines #Kotlin #Adapters</h5>
         </div>
       </div>
      </div>
@@ -225,7 +239,7 @@
    </Section>
    <div id="gif-section">
     <div class="gif-card">
-      <h1 class="section-title"> ☀️ Explore Meus Projetos</h1>
+      <h1 data-translate="explore_title_projects" class="section-title"></h1>
       <div class="gif-container">
         <img class="gif" src="./gifs/admin.gif" alt="aplicação do admin de delivery">
         <img class="gif" src="./gifs/consumy.gif" alt="aplicação do consumidor de delivery">
@@ -234,22 +248,24 @@
         <img class="gif" src="./gifs/weather.gif" alt="aplicação koylin de verificação de clima">
        </div>
      </div>
-      <p class="cta">
-        Confira mais projetos e colaborações no meu <a rel="noopener noreferrer" href="https://github.com/SamuelRocha91/" target="_blank">GitHub<a>.
+      <p data-translate="explore_description_projects"  class="cta">
       </p>
      </div>
     </main>
     <footer>
        <div class="footer-container">
         <div class="contact-info">
-            <h2>Contato</h2>
-            <p>Email: <a class="mail" href="mailto:samuel_sr@hotmail.com.br">samuel_sr@hotmail.com.br</a></p>
-            <p>Telefone: (71) 99259-4946</p>
-            <p>Salvador-Ba</p>
+            <h2 data-translate="contact"></h2>
+            <p>
+              Email: 
+              <a class="mail" href="mailto:samuel_sr@hotmail.com.br">samuel_sr@hotmail.com.br</a><
+            /p>
+            <p data-translate="cell_phone""></p>
+            <p>Salvador-Ba 🇧🇷</p>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>&copy; 2024 Samuel Rocha. Todos os direitos reservados.</p>
+        <p data-translate="copyright"></p>
     </div>
     </footer>
 </body>
