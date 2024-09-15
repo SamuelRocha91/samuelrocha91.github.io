@@ -1,4 +1,4 @@
-
+let about = null;
 
 const translations = {
     en: "lang/en.json",
@@ -12,6 +12,11 @@ function changeLanguage(language) {
     fetch(translations[language])
         .then(response => response.json())
         .then(data => {
+            about = data["about"]
+            document.getElementById('description').innerText = about[0].description
+            document.getElementById('title').innerText = about[0].title
+            document.getElementById('image').setAttribute('src', about[0].src)
+            document.getElementById('image').setAttribute('alt', about[0].alt)
             document.querySelectorAll('[data-translate]').forEach(el => {
                 const key = el.getAttribute('data-translate');
                 el.innerHTML= data[key] || key;
