@@ -1,0 +1,50 @@
+{
+    "column_about": "关于",
+    "column_skill": "技能",
+    "column_projects": "项目",
+    "welcome_message": "你好，欢迎来到我的个人网站！",
+    "contact": "联系方式",
+    "email": "电子邮件:",
+    "cell_phone": "电话: (71) 99259-4946",
+    "btn_msg": "查看更多",
+    "copyright": "&copy; 2024 Samuel Rocha. 保留所有权利。",
+    "recipes_description": "一个小组项目，包括创建一个具有多种访问路由和应用状态管理的食谱应用程序。",
+    "tfc_description": "该应用程序是一个管理足球游戏系统的网站，通过一个使用Sequelize建模的docker化后端。",
+    "delivery_description": "一个Ruby On Rails的交付应用程序仓库，具有身份验证、线程、docker和测试。具有:admin和developer角色的后端和用户界面。",
+    "agrix_description": "一个Java项目，使用Spring生态系统实现了一个农场管理系统。",
+    "resraturant_description": "该应用程序是一个生成菜单的系统，考虑了可能的饮食限制和库存中原料的可用性。",
+    "weather_app": "一个Android天气查询应用程序。使用OpenWeather API，材料设计，接口和数据类。",
+    "name_projects": "项目",
+    "explore_title_projects": "☀️ 探索我的项目",
+    "explore_description_projects": "在我的<a rel=\"noopener noreferrer\" href=\"https://github.com/SamuelRocha91/\" target=\"_blank\">GitHub<a>查看更多项目和合作。",
+    "about": [
+        {
+            "id": 1,
+            "title": "Samuel Rocha",
+            "src": "./images/perfil.png",
+            "alt": "Samuel的个人照片",
+            "description": "全栈Web开发人员"
+        },
+        {
+            "id": 2,
+            "title": "专业",
+            "src": "./images/tecnology.jpeg",
+            "alt": "编程代码屏幕照片",
+            "description": "毕业于<a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>的Web开发课程，拥有前端和后端项目经验，使用多种现代技术。获得了freeCodeCamp、HackerRank和LWSA的认证，这证明了我对学习和完善的不断追求。"
+        },
+        {
+            "id": 3,
+            "title": "出生地",
+            "src": "./images/cityOfSalvador.jpg",
+            "alt": "萨尔瓦多的本芬教堂",
+            "description": "巴西人，33岁，出生并成长在萨尔瓦多-BA：一个充满活力、文化和传统丰富的城市。"
+        },
+        {
+            "id": 4,
+            "title": "个人简介",
+            "src": "./images/sunset.jpg",
+            "alt": "一个男人坐在沙滩上看海",
+            "description": "我的爱好包括阅读、跑步、去海滩和看足球。我喜欢简单的事物，喜欢与人和自然接触。"
+        }
+    ]
+}

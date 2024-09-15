@@ -1,0 +1,50 @@
+{
+    "column_about": "About",
+    "column_skill": "Skills",
+    "column_projects": "Projects",
+    "welcome_message": "Hello, welcome to my Web Portfolio!",
+    "contact": "contact",
+    "email": "Email:",
+    "cell_phone": "Phone: (71) 99259-4946",
+    "btn_msg": "See more",
+    "copyright": "&copy; 2024 Samuel Rocha. All rights reserved.",
+    "recipes_description": "Group project that involved creating a Recipe app with various access routes and application state control.",
+    "tfc_description": "The application consists of a site managing a football game system through a dockerized backend and modeled with Sequelize.",
+    "delivery_description": "Ruby On Rails repository of a delivery application with authentication, threads, Docker, and testing. Back-end and user interface with :admin and developer roles.",
+    "agrix_description": "Java project done with the Spring ecosystem implementing a farm control system.",
+    "resraturant_description": "The application consists of a system for generating menus considering possible dietary restrictions and ingredient availability in stock.",
+    "weather_app": "Android application for weather consultation. It uses the OpenWeather API, material designs, interfaces, and data classes.",
+    "name_projects": "Projects",
+    "explore_title_projects": "☀️ Explore My Projects",
+    "explore_description_projects": "Check out more projects and collaborations on my <a rel=\"noopener noreferrer\" href=\"https://github.com/SamuelRocha91/\" target=\"_blank\">GitHub<a>.",
+    "about": [
+        {
+            "id": 1,
+            "title": "Samuel Rocha",
+            "src": "./images/perfil.png",
+            "alt": "profile picture of Samuel",
+            "description": "Full-Stack Web Developer"
+        },
+        {
+            "id": 2,
+            "title": "Professional",
+            "src": "./images/tecnology.jpeg",
+            "alt": "picture of a screen with programming codes",
+            "description": "Graduated in Web Development from <a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>, I have experience in front-end and back-end projects using various modern technologies. I have earned certifications from freeCodeCamp, HackerRank, and LWSA, which reinforce my constant pursuit of learning and improvement."
+        },
+        {
+            "id": 3,
+            "title": "Hometown",
+            "src": "./images/cityOfSalvador.jpg",
+            "alt": "Bonfim church, Salvador",
+            "description": "Brazilian, 33 years old, born and raised in Salvador-BA: a vibrant city rich in culture and tradition."
+        },
+        {
+            "id": 4,
+            "title": "Profile",
+            "src": "./images/sunset.jpg",
+            "alt": "man sitting on the sand looking at the sea",
+            "description": "My hobbies include reading, running, going to the beach, and watching football. I enjoy simple things, being in contact with people and nature."
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{ 
+    "column_about": "Sobre",
+    "column_skill": "Habilidades",
+    "column_projects": "Projetos",
+    "welcome_message": "Olá, seja bem-vindo(a) ao meu Portfólio Web!",
+    "contact": "Contato",
+    "email": "Email:",
+    "cell_phone": "Telefone: (71) 99259-4946",
+    "btn_msg": "Veja mais",
+    "copyright":  "&copy; 2024 Samuel Rocha. Todos os direitos reservados.",
+    "recipes_description": "Projeto em grupo que envolveu a criação de um app de Receitas com diversas rotas de acesso e controle do estado da aplicação.",
+    "tfc_description": "A aplicação consiste num site gerenciador de um sistema de jogos de futebol através de um backend dockerizado e modelado com Sequelize.",
+    "delivery_description": "Repositório Ruby On Rails de uma aplicação de delivery com autenticação, threads, docker, testes. Back-end e interface de usuários com a role :admin e developer.",
+    "agrix_description": "Projeto Java realizado com o ecossistema Spring e que implementa um sistema de controle de fazendas.",
+    "resraturant_description": "A aplicação consiste num sistema de gerar cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.",
+    "weather_app": "Aplicação Android de consulta do clima. Possui chamada à Api da OpenWeather, uso de material designs, interfaces e data classes",
+    "name_projects": "Projetos",
+    "explore_title_projects": "☀️ Explore Meus Projetos",
+    "explore_description_projects": "Confira mais projetos e colaborações no meu <a rel='noopener noreferrer' href='https://github.com/SamuelRocha91/' target='_blank'>GitHub</a>.",
+    "about": [
+    {
+        "id": 1,
+        "title": "Samuel Rocha",
+        "src": "./images/perfil.png",
+        "alt": "foto de perfil de Samuel",
+        "description": "Desenvolvedor Web Full-Stack"
+    },
+    {
+        "id": 2,
+        "title": "Profissional",
+        "src": "./images/tecnology.jpeg",
+        "alt": "foto de códigos tela com códigos de programação",
+        "description": "Formado em Desenvolvimento Web pela <a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>, tenho experiência em projetos de front-end e back-end, utilizando diversas tecnologias modernas. Conquistei certificações pela freeCodeCamp, HackerRank e LWSA, o que reforça minha constante busca por aprendizado e aperfeiçoamento."
+    },
+    {
+        "id": 3,
+        "title": "Naturalidade",
+        "src": "./images/cityOfSalvador.jpg",
+        "alt": "igreja do Bonfim, Salvador",
+        "description": "Brasileiro, 33 anos, nascido e criado em Salvador-BA: cidade vibrante, rica em cultura e tradição."
+    },
+    {
+        "id": 4,
+        "title": "Perfil",
+        "src": "./images/sunset.jpg",
+        "alt": "homem sentado na areia olhando o mar",
+        "description": "Tenho como hobbies ler, correr, ir à praia e ver futebol. Gosto das coisas simples, de estar em contato com as pessoas e a natureza"
+    }
+  ]
+}
