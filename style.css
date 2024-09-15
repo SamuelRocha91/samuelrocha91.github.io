@@ -8,6 +8,10 @@ a {
     color: rgb(0, 0, 0);
 }
 
+.form-select {
+  width: max-content;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -42,6 +46,8 @@ main {
     display: flex;
     gap: 10px;
     margin: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .introduction {
