@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/persona.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio Web</title>
+    <title>Web Portfolio</title>
 </head>
 <body>
   <header>
@@ -68,7 +68,7 @@
       <section class="introduction">
         <div id="welcome" >
           <h1 data-translate="welcome_message"></h1>
-          <a href="#projects">
+          <a href="./docs/SamuelRocha-en.pdf" download="SamuelRocha.pdf">
             <button data-translate="btn_msg"></button>
           </a>
         </div>
@@ -128,10 +128,11 @@
       <h2 data-translate="name_projects"></h2>
       <div id="content-repository">
         <div id="manager-repository">
-          <div class="repositories">
+          <div class="repositories beach-img">
             <h3 class="space">
               <i class="bi bi-tv"></i>
               <a 
+                class="recipes-app-repo"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/SamuelRocha91/ProjectRecipesApp"
@@ -162,7 +163,7 @@
               <h5>#Typescript #Sequelize #MongoDb #Docker</h5>
             </div>
           </div>
-          <div class="repositories">
+          <div class="repositories seller-repo">
             <h3 class="space">
               <i class="bi bi-tv"></i>
               <a
@@ -237,21 +238,60 @@
      </div>
     </div>
    </Section>
+   <section class="gallery">
+      <div class="gallery-item">
+        <a href="https://github.com/SamuelRocha91/pokedex" target="_blank">
+          <img src="./images/pokedex.png" alt="Imagem de uma pokedex">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="https://github.com/SamuelRocha91/project-frontend-online-store" target="_blank">
+          <img src="./images/frontend.png" alt="Imagem 2">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a  href="https://github.com/SamuelRocha91/ProjectRecipesApp" target="_blank">
+          <img src="./images/Recipes.png" alt="Projeto Recipes App">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="https://github.com/SamuelRocha91/kotlinWeatherApp" target="_blank">
+          <img  src="./images/spanish.png" alt="weather app">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="https://github.com/SamuelRocha91/trivia_game" target="_blank">
+          <img src="./images/trivia.png" alt="projeto trivia game">
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a href="https://github.com/SamuelRocha91/project-trybewallet" target="_blank">
+          <img src="./images/wallet.png"  alt="TRybe wallet">
+        </a>
+      </div>
+  </section>
+
    <div id="gif-section">
     <div class="gif-card">
       <h1 data-translate="explore_title_projects" class="section-title"></h1>
       <div class="gif-container">
         <img class="gif" src="./gifs/admin.gif" alt="aplicação do admin de delivery">
-        <img class="gif" src="./gifs/consumy.gif" alt="aplicação do consumidor de delivery">
+        <img class="gif" src="./gifs/measureReact.gif" alt="aplicação react de medição de consumo">
         <img class="gif" src="./gifs/registerSeller.gif" alt="aplicação do vendedor de delivery - registro">
-        <img class="gif" src="./gifs/sellerInternal.gif" alt="aplicação do vendedor de delivery - navegação interna">
-        <img class="gif" src="./gifs/weather.gif" alt="aplicação koylin de verificação de clima">
+        <img class="gif" src="./gifs/recipesAppOne.gif" alt="aplicação de receitas de alimentos">
+        <img class="gif" src="./gifs/weather.gif" alt="aplicação kotlin de verificação de clima">
        </div>
      </div>
       <p data-translate="explore_description_projects"  class="cta">
       </p>
      </div>
     </main>
+    <section class="thanks">
+      <h2 data-translate="thanks-vist"></h2>
+      <p data-translate="bye"></p>
+      <img src="./images/trees-8463651_1280.webp" alt="">
+      <p><a data-translate="credits" href="https://pixabay.com/pt/users/hardae-19599637/">Créditos</a></p>
+    </section>
     <footer>
        <div class="footer-container">
         <div class="contact-info">
@@ -259,7 +299,7 @@
             <p>
               Email: 
               <a class="mail" href="mailto:samuel_sr@hotmail.com.br">samuel_sr@hotmail.com.br</a><
-            /p>
+            </p>
             <p data-translate="cell_phone""></p>
             <p>Salvador-Ba 🇧🇷</p>
         </div>

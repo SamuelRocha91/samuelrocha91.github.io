@@ -5,7 +5,7 @@
     "welcome_message": "Hello, welcome to my Web Portfolio!",
     "contact": "contact",
     "email": "Email:",
-    "cell_phone": "Phone: (71) 99259-4946",
+    "cell_phone": "Phone: + 55 (71) 99259-4946",
     "btn_msg": "See more",
     "copyright": "&copy; 2024 Samuel Rocha. All rights reserved.",
     "recipes_description": "Group project that involved creating a Recipe app with various access routes and application state control.",
@@ -17,6 +17,9 @@
     "name_projects": "Projects",
     "explore_title_projects": "☀️ Explore My Projects",
     "explore_description_projects": "Check out more projects and collaborations on my <a rel=\"noopener noreferrer\" href=\"https://github.com/SamuelRocha91/\" target=\"_blank\">GitHub<a>.",
+    "thanks-vist": "Thank you for the visit :)",
+    "bye": "Have a great journey ✨🌍",
+    "credits": "Credits 🌿",
     "about": [
         {
             "id": 1,
@@ -30,7 +33,7 @@
             "title": "Professional",
             "src": "./images/tecnology.jpeg",
             "alt": "picture of a screen with programming codes",
-            "description": "Graduated in Web Development from <a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>, I have experience in front-end and back-end projects using various modern technologies. I have earned certifications from freeCodeCamp, HackerRank, and LWSA, which reinforce my constant pursuit of learning and improvement."
+            "description": "Undergraduate student in Systems Analysis and Development at the <a href='https://ucb.catolica.edu.br/' style='text-decoration: underline;'>Catholic University of Brasília</a>, I hold a Web Developer certificate issued by <a href='https://www.credential.net/ad5e0984-fa07-41b0-a50b-51cb25fd0010#gs.20e7a8' style='text-decoration: underline;'>Trybe</a>, along with several other certifications issued by institutions such as <a href='https://www.freecodecamp.org/certification/Sam_sr91/javascript-algorithms-and-data-structures' style='text-decoration: underline;'>freeCodeCamp</a>, HackerRank, and <a href='https://www.linkedin.com/in/samuel-soares-rocha-dev/details/certifications/1530282173/multiple-media-viewer/?profileId=ACoAAD2xzmIBjseQCc3TtFYgjQCFLg65UPtBK6E&treasuryMediaId=1719517202706&type=DOCUMENT' style='text-decoration: underline;'>LWSA</a>."
         },
         {
             "id": 3,
