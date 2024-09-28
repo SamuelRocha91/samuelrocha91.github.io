@@ -6,7 +6,7 @@
     "contact": "contact",
     "email": "Email:",
     "cell_phone": "Phone: + 55 (71) 99259-4946",
-    "btn_msg": "See more",
+    "btn_msg": "Download my Resume!",
     "copyright": "&copy; 2024 Samuel Rocha. All rights reserved.",
     "recipes_description": "Group project that involved creating a Recipe app with various access routes and application state control.",
     "tfc_description": "The application consists of a site managing a football game system through a dockerized backend and modeled with Sequelize.",

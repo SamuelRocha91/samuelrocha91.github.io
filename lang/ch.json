@@ -6,7 +6,7 @@
     "contact": "联系方式",
     "email": "电子邮件:",
     "cell_phone": "电话: + 55 (71) 99259-4946",
-    "btn_msg": "查看更多",
+    "btn_msg": "下载我的简历！",
     "copyright": "&copy; 2024 Samuel Rocha. 保留所有权利。",
     "recipes_description": "一个小组项目，包括创建一个具有多种访问路由和应用状态管理的食谱应用程序。",
     "tfc_description": "该应用程序是一个管理足球游戏系统的网站，通过一个使用Sequelize建模的docker化后端。",
