@@ -6,7 +6,7 @@
     "contact": "contacto",
     "email": "Correo electrónico:",
     "cell_phone": "Teléfono: + 55 (71) 99259-4946",
-    "btn_msg": "Ver más",
+    "btn_msg": "¡Descarga mi Currículum!",
     "copyright": "&copy; 2024 Samuel Rocha. Todos los derechos reservados.",
     "recipes_description": "Proyecto en grupo que implicó la creación de una aplicación de Recetas con diversas rutas de acceso y control del estado de la aplicación.",
     "tfc_description": "La aplicación consiste en un sitio que gestiona un sistema de juegos de fútbol a través de un backend dockerizado y modelado con Sequelize.",
