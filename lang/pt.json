@@ -5,8 +5,8 @@
     "welcome_message": "Olá, seja bem-vindo(a) ao meu Portfólio Web!",
     "contact": "Contato",
     "email": "Email:",
-    "cell_phone": "Telefone: (71) 99259-4946",
-    "btn_msg": "Veja mais",
+    "cell_phone": "Telefone: + 55 (71) 99259-4946",
+    "btn_msg": "Baixe meu Currículo!",
     "copyright":  "&copy; 2024 Samuel Rocha. Todos os direitos reservados.",
     "recipes_description": "Projeto em grupo que envolveu a criação de um app de Receitas com diversas rotas de acesso e controle do estado da aplicação.",
     "tfc_description": "A aplicação consiste num site gerenciador de um sistema de jogos de futebol através de um backend dockerizado e modelado com Sequelize.",
@@ -17,6 +17,9 @@
     "name_projects": "Projetos",
     "explore_title_projects": "☀️ Explore Meus Projetos",
     "explore_description_projects": "Confira mais projetos e colaborações no meu <a rel='noopener noreferrer' href='https://github.com/SamuelRocha91/' target='_blank'>GitHub</a>.",
+    "thanks-vist": "Obrigado pela visita :)",
+    "bye": "Tenha uma ótima jornada  ✨🌍",
+    "credits": "Créditos 🌿",
     "about": [
     {
         "id": 1,
@@ -30,7 +33,7 @@
         "title": "Profissional",
         "src": "./images/tecnology.jpeg",
         "alt": "foto de códigos tela com códigos de programação",
-        "description": "Formado em Desenvolvimento Web pela <a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>, tenho experiência em projetos de front-end e back-end, utilizando diversas tecnologias modernas. Conquistei certificações pela freeCodeCamp, HackerRank e LWSA, o que reforça minha constante busca por aprendizado e aperfeiçoamento."
+        "description": "Graduando em Análise e Desenvolvimento de Sistemas pela <a href='https://ucb.catolica.edu.br/' style='text-decoration: underline;'>Universidade Católica de Brasília</a>, possuo certificado de Desenvolvedor Web emitido pela <a href='https://www.credential.net/ad5e0984-fa07-41b0-a50b-51cb25fd0010#gs.20e7a8' style='text-decoration: underline;'>Trybe</a> e diversas outras certificações emitidas por instituições como <a href='https://www.freecodecamp.org/certification/Sam_sr91/javascript-algorithms-and-data-structures' style='text-decoration: underline;'>freeCodeCamp</a>, HackerRank e  <a href='https://www.linkedin.com/in/samuel-soares-rocha-dev/details/certifications/1530282173/multiple-media-viewer/?profileId=ACoAAD2xzmIBjseQCc3TtFYgjQCFLg65UPtBK6E&treasuryMediaId=1719517202706&type=DOCUMENT' style='text-decoration: underline;'>LWSA</a>."
     },
     {
         "id": 3,

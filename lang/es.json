@@ -5,7 +5,7 @@
     "welcome_message": "¡Hola, bienvenido(a) a mi Portafolio Web!",
     "contact": "contacto",
     "email": "Correo electrónico:",
-    "cell_phone": "Teléfono: (71) 99259-4946",
+    "cell_phone": "Teléfono: + 55 (71) 99259-4946",
     "btn_msg": "Ver más",
     "copyright": "&copy; 2024 Samuel Rocha. Todos los derechos reservados.",
     "recipes_description": "Proyecto en grupo que implicó la creación de una aplicación de Recetas con diversas rutas de acceso y control del estado de la aplicación.",
@@ -17,6 +17,9 @@
     "name_projects": "Proyectos",
     "explore_title_projects": "☀️ Explora Mis Proyectos",
     "explore_description_projects": "Consulta más proyectos y colaboraciones en mi <a rel=\"noopener noreferrer\" href=\"https://github.com/SamuelRocha91/\" target=\"_blank\">GitHub<a>.",
+    "thanks-vist": "Gracias por la visita :)",
+    "bye": "Que tengas un gran viaje ✨🌍",
+    "credits": "Créditos 🌿",
     "about": [
         {
             "id": 1,
@@ -30,7 +33,7 @@
             "title": "Profesional",
             "src": "./images/tecnology.jpeg",
             "alt": "foto de pantalla con códigos de programación",
-            "description": "Graduado en Desarrollo Web por <a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>, tengo experiencia en proyectos de front-end y back-end, utilizando diversas tecnologías modernas. He obtenido certificaciones de freeCodeCamp, HackerRank y LWSA, lo que refuerza mi constante búsqueda de aprendizaje y perfeccionamiento."
+            "description": "Estudiante de pregrado en Análisis y Desarrollo de Sistemas en la <a href='https://ucb.catolica.edu.br/' style='text-decoration: underline;'>Universidad Católica de Brasilia</a>, tengo un certificado de Desarrollador Web emitido por <a href='https://www.credential.net/ad5e0984-fa07-41b0-a50b-51cb25fd0010#gs.20e7a8' style='text-decoration: underline;'>Trybe</a>, además de varias otras certificaciones emitidas por instituciones como <a href='https://www.freecodecamp.org/certification/Sam_sr91/javascript-algorithms-and-data-structures' style='text-decoration: underline;'>freeCodeCamp</a>, HackerRank y <a href='https://www.linkedin.com/in/samuel-soares-rocha-dev/details/certifications/1530282173/multiple-media-viewer/?profileId=ACoAAD2xzmIBjseQCc3TtFYgjQCFLg65UPtBK6E&treasuryMediaId=1719517202706&type=DOCUMENT' style='text-decoration: underline;'>LWSA</a>."
         },
         {
             "id": 3,

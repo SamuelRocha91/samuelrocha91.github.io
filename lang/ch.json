@@ -5,7 +5,7 @@
     "welcome_message": "你好，欢迎来到我的个人网站！",
     "contact": "联系方式",
     "email": "电子邮件:",
-    "cell_phone": "电话: (71) 99259-4946",
+    "cell_phone": "电话: + 55 (71) 99259-4946",
     "btn_msg": "查看更多",
     "copyright": "&copy; 2024 Samuel Rocha. 保留所有权利。",
     "recipes_description": "一个小组项目，包括创建一个具有多种访问路由和应用状态管理的食谱应用程序。",
@@ -17,6 +17,9 @@
     "name_projects": "项目",
     "explore_title_projects": "☀️ 探索我的项目",
     "explore_description_projects": "在我的<a rel=\"noopener noreferrer\" href=\"https://github.com/SamuelRocha91/\" target=\"_blank\">GitHub<a>查看更多项目和合作。",
+    "thanks-vist": "感谢您的光临  :)",
+    "bye": "祝您旅途愉快 ✨🌍",
+    "credits": "致谢 🌿",
     "about": [
         {
             "id": 1,
@@ -30,7 +33,7 @@
             "title": "专业",
             "src": "./images/tecnology.jpeg",
             "alt": "编程代码屏幕照片",
-            "description": "毕业于<a href='https://www.betrybe.com/' style='text-decoration: underline;'>Trybe</a>的Web开发课程，拥有前端和后端项目经验，使用多种现代技术。获得了freeCodeCamp、HackerRank和LWSA的认证，这证明了我对学习和完善的不断追求。"
+            "description": "我是 <a href='https://ucb.catolica.edu.br/' style='text-decoration: underline;'>巴西利亚天主教大学</a>系统分析与开发专业的本科生，持有<a href='https://www.credential.net/ad5e0984-fa07-41b0-a50b-51cb25fd0010#gs.20e7a8' style='text-decoration: underline;'>Trybe</a> 颁发的Web开发者证书，并且拥有多家机构颁发的多项认证，如<a href='https://www.freecodecamp.org/certification/Sam_sr91/javascript-algorithms-and-data-structures' style='text-decoration: underline;'>freeCodeCamp</a>、HackerRank 和 <a href='https://www.linkedin.com/in/samuel-soares-rocha-dev/details/certifications/1530282173/multiple-media-viewer/?profileId=ACoAAD2xzmIBjseQCc3TtFYgjQCFLg65UPtBK6E&treasuryMediaId=1719517202706&type=DOCUMENT' style='text-decoration: underline;'>LWSA</a>。"
         },
         {
             "id": 3,
