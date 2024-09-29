@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 a {
@@ -111,8 +112,10 @@ main {
 #content-carroussel {
   display: flex;
   align-items: center;
+  background-image: url('./images/snow55.png');
   justify-content: center; 
-  width: 100vw;
+  background-size: cover; 
+  width: 100%;
   height: 100vh;
   gap: 30px;
   padding: 20px;
@@ -169,7 +172,9 @@ main {
   justify-content: center;
   gap: 100px;
   color: white;
+  position: relative;
 }
+
 
 #ulskill {
   display: flex;
@@ -187,10 +192,14 @@ ul li {
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-image: url('./images/d42aur7-1de5bcec-c452-4ef6-8033-bda03f911fe0.jpg');
+  background-size: cover;
   flex-direction: column;
+  color: white;
   align-items: center;
   gap: 10px;
   justify-content: center;
+ 
 }
 
 .repositories {
@@ -198,6 +207,12 @@ ul li {
   padding: 15px;
   gap: 5px;
   display: block;
+}
+
+.repositories h3 a {
+  color: rgb(167, 140, 140);
+  font-weight: 900;
+  text-shadow: 5px 5px 5px #000000;
 }
 
 .space {
@@ -219,7 +234,7 @@ footer {
 }
 
 #foot i {
-    margin: 25px 40px;
+  margin: 25px 40px;
 }
 
 #content-repository{
@@ -297,6 +312,158 @@ footer {
   text-decoration: underline; 
 }
 
+#java {
+  position: absolute;
+  font-size: 50px;
+  animation: moverNuvemDiagonal 60s linear infinite;
+  background-color: orange;
+}
+
+#java {
+  position: absolute;
+  font-size: 50px;
+  animation: moverJava 50s linear infinite;
+  background-color: rgb(255, 167, 3);
+  box-shadow: 2px 6px 8px orange;
+}
+
+#js {
+  position: absolute;
+  font-size: 50px;
+  animation: moverJs 55s linear infinite;
+  background-color: rgb(200, 233, 13);
+  box-shadow: 2px 6px 8px rgb(194, 236, 4);
+
+}
+
+#react {
+  position: absolute;
+  font-size: 50px;
+  animation: moverReact 52s linear infinite;
+  background-color: rgb(0, 17, 255);
+  box-shadow: 2px 6px 8px rgb(0, 17, 255);
+}
+
+#vue {
+  position: absolute;
+  font-size: 52px;
+  animation: moverVue 57s linear infinite;
+  background-color: rgb(53, 230, 9);
+  box-shadow: 2px 6px 8px rgb(60, 255, 0);
+}
+
+#node {
+  position: absolute;
+  font-size: 50px;
+  animation: moverNode 49s linear infinite;
+  background-color: rgb(255, 4, 58);
+  box-shadow: 2px 6px 8px rgb(255, 6, 18);
+}
+
+#docker {
+  position: absolute;
+  font-size: 50px;
+  animation: moverDocker 49s linear infinite;
+  background-color: rgb(4, 255, 255);
+  box-shadow: 2px 6px 8px rgb(6, 255, 222);
+}
+
+@keyframes moverDocker{
+  0% {
+    left: 0;
+    top: 90vh; 
+  }
+  50% {
+    left: 95vw;
+    top: 0; 
+  }
+
+   100% {
+    left: 0;
+    top: 90vh; 
+  }
+}
+
+@keyframes moverJava {
+  0% {
+    left: 0;
+    top: 0; 
+  }
+  50% {
+    left: 95vw;
+    top: 95vh; 
+  }
+
+   100% {
+    left: 0;
+    top: 0; 
+  }
+}
+
+@keyframes moverJs {
+  0% {
+    right: 0;
+    top: 100; 
+  }
+
+  50% {
+    right: 95vw; 
+  }
+
+   100% {
+    right: 0;
+    top: 100; 
+  }
+}
+
+@keyframes moverReact {
+  0% {
+    left: 95vw;
+    top: 50vh; 
+  }
+
+  50% {
+    left: 0; 
+    top: 25vh; 
+  }
+
+  100% {
+    left: 95vw;
+    top: 50vh; 
+  }
+
+}
+
+
+@keyframes moverNode {
+  0% {
+    left: 0;
+    top: 30vh; 
+  }
+  50% {
+    left: 95vw; 
+  }
+  100% {
+    left: 0;
+    top: 30vh; 
+  }
+}
+
+@keyframes moverVue {
+  0% {
+    right: 0;
+    top: 90vh; 
+  }
+  50% {
+    right: 95vw; 
+    top: 0;
+  }
+  100% {
+    right: 0;
+    top: 90vh; 
+  }
+}
+
 footer {
   background-color: #f8f3f3;
   color: #000000;
@@ -359,6 +526,8 @@ a:hover {
 
 .thanks img {
   height: 50%;
+  border-radius: 30px;
+  width: 330px;
 }
 
 .thanks a {
