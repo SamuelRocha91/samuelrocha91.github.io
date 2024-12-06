@@ -12,7 +12,7 @@
     "tfc_description": "A aplicação consiste num site gerenciador de um sistema de jogos de futebol através de um backend dockerizado e modelado com Sequelize.",
     "delivery_description": "Repositório Ruby On Rails de uma aplicação de delivery com autenticação, threads, docker, testes. Back-end e interface de usuários com a role :admin e developer.",
     "agrix_description": "Projeto Java realizado com o ecossistema Spring e que implementa um sistema de controle de fazendas.",
-    "resraturant_description": "A aplicação consiste num sistema de gerar cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.",
+    "resraturant_description": "Repositório destinado ao registro de atividades acadêmicas desenvolvidas no curso de Análise e Desenvolvimento de Sistemas da Universidade Católica de Brasília..",
     "weather_app": "Aplicação Android de consulta do clima. Possui chamada à Api da OpenWeather, uso de material designs, interfaces e data classes",
     "name_projects": "Projetos",
     "explore_title_projects": "☀️ Explore Meus Projetos",
