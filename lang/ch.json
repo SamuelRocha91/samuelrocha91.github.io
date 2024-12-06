@@ -12,7 +12,7 @@
     "tfc_description": "该应用程序是一个管理足球游戏系统的网站，通过一个使用Sequelize建模的docker化后端。",
     "delivery_description": "一个Ruby On Rails的交付应用程序仓库，具有身份验证、线程、docker和测试。具有:admin和developer角色的后端和用户界面。",
     "agrix_description": "一个Java项目，使用Spring生态系统实现了一个农场管理系统。",
-    "resraturant_description": "该应用程序是一个生成菜单的系统，考虑了可能的饮食限制和库存中原料的可用性。",
+    "resraturant_description": "用于记录巴西利亚天主教大学系统分析与开发课程中开展的学术活动的存储库",
     "weather_app": "一个Android天气查询应用程序。使用OpenWeather API，材料设计，接口和数据类。",
     "name_projects": "项目",
     "explore_title_projects": "☀️ 探索我的项目",
