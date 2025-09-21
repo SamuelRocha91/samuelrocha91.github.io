@@ -1,7 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
+  overflow-x: hidden; 
 }
 
 a {
@@ -9,9 +10,7 @@ a {
   color: rgb(0, 0, 0);
 }
 
-.form-select {
-  width: max-content;
-}
+
 
 header {
   display: flex;
@@ -49,6 +48,19 @@ main {
   margin: 100px;
   justify-content: center;
   align-items: center;
+}
+
+.form-select {
+  border: 2px solid;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  background: white;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
 .introduction {
@@ -175,38 +187,90 @@ main {
   position: relative;
 }
 
-
 #ulskill {
-  display: flex;
-  gap: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  max-width: 1000px;
+  width: 100%;
 }
 
-ul li {
-  gap: 100px;
-  font-size: x-large;
-  color: rgb(255, 255, 255);
-  list-style: circle;
+#ulskill ul {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
 }
+
+#ulskill ul:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#ulskill li {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+  display: flex;
+  align-content: center;
+  transition: all 0.3s ease;
+}
+
+#ulskill li::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    top: 0.24rem;
+    font-size: 0.8rem;
+}
+
+#ulskill li:hover {
+  transform: translateX(10px);
+}
+
 
 #projects {
   height: 100vh;
   width: 100vw;
-  display: flex;
   background-image: url('./images/d42aur7-1de5bcec-c452-4ef6-8033-bda03f911fe0.jpg');
   background-size: cover;
-  flex-direction: column;
   color: white;
-  align-items: center;
   gap: 10px;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
- 
 }
+
+
 
 .repositories {
   border: 1px solid green;
   padding: 15px;
   gap: 5px;
   display: block;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.repositories::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.repositories:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .repositories h3 a {
@@ -622,10 +686,14 @@ a:hover {
     display: none;
   }
 
-   .form-select-two {
+  .form-select-two {
     font-size: 20px;
     margin-bottom: 5px;
-    gap: 0px;
+    border: 2px solid rgb(245, 230, 230);
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    background: white;
+    transition: all 0.3s ease;
   }
 }
 
@@ -700,6 +768,10 @@ a:hover {
 }
 
 @media (max-width: 700px) {
+  #manager-repository .repositories:nth-child(1) {
+    display: none;
+  }
+
   .init i {
     display: none;
   }
