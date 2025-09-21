@@ -8,6 +8,9 @@ const translations = {
     ch: "lang/ch.json"
 };
 
+let wasClicked = false;
+let autoInterval = null;
+
 function changeLanguage(language) {
     fetch(translations[language])
         .then(response => response.json())
@@ -25,20 +28,48 @@ function changeLanguage(language) {
 }
 
 
+
 function changeData(operation) {
+    if (!wasClicked) {
+        wasClicked = true;
+        if (autoInterval) {
+            clearInterval(autoInterval); 
+            autoInterval = null;
+        }
+    }
+
     const description = document.getElementById('description');
     const title2 = document.getElementById('title');
     const image = document.getElementById('image');
-    
-    const newId = generateId(operation, title2)
 
+    const newId = generateId(operation, title2);
     const newInfo = about[newId - 1];
-    
+
     description.innerHTML = newInfo.description;
     title2.innerText = newInfo.title;
     image.src = newInfo.src;
     image.alt = newInfo.alt;
 }
+
+function changeDataAuto() {
+    if (!wasClicked) {
+        autoInterval = setInterval(() => {
+            const description = document.getElementById('description');
+            const title2 = document.getElementById('title');
+            const image = document.getElementById('image');
+
+            const operation = 'sum';
+            const newId = generateId(operation, title2);
+            const newInfo = about[newId - 1];
+
+            description.innerHTML = newInfo.description;
+            title2.innerText = newInfo.title;
+            image.src = newInfo.src;
+            image.alt = newInfo.alt;
+        }, 7000);
+    }
+}
+
 
 function generateId(operation, title2) {
     let id = about.find(({title}) => title == title2.innerText).id;
@@ -58,6 +89,7 @@ function generateId(operation, title2) {
 
 window.onload = function () {
     changeLanguage('pt'); 
+    changeDataAuto()
     document.getElementById('left').addEventListener('click', () => changeData('sub'));
     document.getElementById('right').addEventListener('click', () => changeData('sum'));
 }
